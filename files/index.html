@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Student Management CRUD</h1><hr><br><br>
+        <form action="" id="stdForm" class="stdForm">
+            <input id="name" class="input-box" type="text" placeholder="Name">
+            <input id="email" class="input-box" type="email" placeholder="Email">
+            <input id="gpa" class="input-box" type="text" placeholder="GPA">
+            <input id="age" class="input-box" type="text" placeholder="Age">
+            <input id="degree" class="input-box" type="text" placeholder="Degree">
+            <input id="submit" class="submit-btn" type="submit" value="Add Student">
+        </form>
+
+        <input id="search-bar" class="search-bar" placeholder="Search by name, email or degree" type="text">
+
+        <table class="stdInfo" id="stdInfo">
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>GPA</th>
+                <th>Age</th>
+                <th>Degree</th>
+            </tr>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
